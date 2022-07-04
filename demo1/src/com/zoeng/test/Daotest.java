@@ -17,5 +17,6 @@ public class Daotest {
         CustomerMapper customerMapper=act.getBean(CustomerMapper.class);
         Customer customer=customerMapper.findCustomerById(1);
         System.out.println(customer);
+        System.out.println("pull test");
     }
 }
